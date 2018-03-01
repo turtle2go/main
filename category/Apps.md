@@ -1,5 +1,5 @@
 ---
 layout: category
-title: IOS, Android APPs
+title: Apps (IOS, Android)
 #category:
 ---
