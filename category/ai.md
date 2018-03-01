@@ -1,5 +1,5 @@
 ---
 layout: category
-title: 1. A.I. (Artificial Inteligence)
+title: A.I. (Artificial Inteligence)
 #category:
 ---
