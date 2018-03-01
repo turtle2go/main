@@ -6,7 +6,7 @@ highlighter:      rouge
 title:            Turtle2Go
 tagline:          'A Jekyll theme'
 description:      'Welcome to Turtle2Go' Home'
-url:              https://Turtle2Go.github.io/hydeout
+url:              https://Turtle2Go.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
