@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Turtle2Go
 tagline:          'A Jekyll theme'
-description:      'Test Homepage for Turtle2Go'
+description:      'Welcome to Turtle2Go' Home'
 url:              https://Turtle2Go.github.io/hydeout
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -17,7 +17,7 @@ author:
   name:           'Turtle2Go'
   url:            https://twitter.com/Turtle2Go
 
-paginate:         10
+paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
@@ -34,4 +34,4 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
-  repo:             https://github.com/Turtle2Go/hydeout
+  repo:             https://github.com/Turtle2Go
