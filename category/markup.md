@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Markup
+title: Information Technology
 ---
 
 Another complex category page.
