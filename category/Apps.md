@@ -1,5 +1,5 @@
 ---
 layout: category
-title: A.I. (Artificial Inteligence)
+title: IOS, Android APPs
 #category:
 ---
