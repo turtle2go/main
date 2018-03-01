@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Blochchain (Chains Tech, Investment)
+title: Blochchain
 ---
 
 <p class="message">
