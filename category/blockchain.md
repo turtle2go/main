@@ -1,7 +1,6 @@
 ---
 layout: category
 title: Blochchain
-sidebar_link: true
 ---
 
 <p class="message">
