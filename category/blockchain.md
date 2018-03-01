@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Blochchain
+title: Blockchain
 ---
 
 <p class="message">
