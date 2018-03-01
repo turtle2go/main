@@ -14,4 +14,4 @@ Blockchains are secure by design and exemplify a distributed computing system wi
 
 Blockchain was invented by Satoshi Nakamoto in 2008 for use in the cryptocurrency bitcoin, as its public transaction ledger.[1] The invention of the blockchain for bitcoin made it the first digital currency to solve the double spending problem without the need of a trusted authority or central server. The bitcoin design has been the inspiration for other applications.[1][3]
 
-From Wikipedia <a href="https://en.wikipedia.org/wiki/Blockchain"> Wikipedia </a>
+From <a href="https://en.wikipedia.org/wiki/Blockchain"> Wikipedia </a>
