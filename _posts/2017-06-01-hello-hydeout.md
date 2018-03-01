@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello Hydeout
+category: blockchain
 excerpt_separator:  <!--more-->
 ---
 
