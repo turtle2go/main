@@ -1,5 +1,5 @@
 ---
 layout: category
-title: IT Management
+title: IT Projects
 #category:
 ---
