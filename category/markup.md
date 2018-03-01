@@ -3,4 +3,4 @@ layout: category
 title: Markup
 ---
 
-Another sample category page.
+Another complex category page.
