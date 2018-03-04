@@ -27,15 +27,30 @@ EC2 Storage Type
 
 ### Setting
 
-Hydeout replaces Hyde's class-based theming with the use
-of the following SASS variables:
+pre-requisite
+
+Required:
 
 ```scss
-$sidebar-bg-color: #202020 !default;
-$sidebar-sticky: true !default;
-$layout-reverse: false !default;
-$link-color: #268bd2 !default;
+Key pairs for SSH between instance and administration PCs
+Security group and firewall rules
 ```
+
+EC2 Creation
+
+```scss
+  * Select AMI Type
+  * Select instance Type
+  * Configure instance settting
+  * Add Storage
+  * Define instance tags
+  * Congigure security Setting
+  * Check instance status for Creation
+  * Define Key pairs with existing key or new one
+  * Assign EIP and link to EC2 service through internet
+  * EC2 service testing 
+```
+
 
 To override these variables, create your own `assets/css/main.scss` file.
 Define your own variables, then import in Hydeout's SCSS, like so:
