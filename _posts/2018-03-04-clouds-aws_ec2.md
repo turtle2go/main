@@ -30,13 +30,12 @@ AWS pre-built OS template(OS,APPs), provided by AWS or built by customers
 
 `Pre-requisite`
 
-Required:
-
   * Key pairs for SSH between instance and administration PCs
-    Security group and firewall rules
+  * Security group and firewall rules
 
-`EC2 Creation`
+`EC2 Creation procedure`
 
+  ```scss
   * Select AMI Type
   * Select instance Type
   * Configure instance settting
@@ -47,3 +46,22 @@ Required:
   * Define Key pairs with existing key or new one
   * Assign EIP and link to EC2 service through internet
   * EC2 service testing
+  ```
+  
+  ```
+  ---
+  # Jekyll needs front matter for SCSS files
+  ---
+
+  $sidebar-bg-color: #ac4142;
+  $link-color: #ac4142;
+  $sidebar-sticky: false;
+  @import "hydeout";
+  ```
+
+  ```scss
+  $sidebar-bg-color: #202020 !default;
+  $sidebar-sticky: true !default;
+  $layout-reverse: false !default;
+  $link-color: #268bd2 !default;
+  ```
