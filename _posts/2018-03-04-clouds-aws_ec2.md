@@ -10,13 +10,13 @@ EC2 Definition, Setting, Connect, Stop/Start/Restart/, CLI, Summary
 ### Definition
 
 `[Amazon EC2(Elastic Compute Cloud)`
-
+```scss
 Virtual Server, running based on various hardware types provided by AWS.
-
+```
 `AMI(Amazon Machine Image)`
-
+```scss
 AWS pre-built OS template(OS,APPs), provided by AWS or built by customers
-
+```
 `EC2 Storage Type`
 
   * Instance Store-Backed (Only for instance)
@@ -35,7 +35,6 @@ AWS pre-built OS template(OS,APPs), provided by AWS or built by customers
 
 `EC2 Creation procedure`
 
-  ```scss
   * Select AMI Type
   * Select instance Type
   * Configure instance settting
@@ -46,22 +45,3 @@ AWS pre-built OS template(OS,APPs), provided by AWS or built by customers
   * Define Key pairs with existing key or new one
   * Assign EIP and link to EC2 service through internet
   * EC2 service testing
-  ```
-  
-  ```
-  ---
-  # Jekyll needs front matter for SCSS files
-  ---
-
-  $sidebar-bg-color: #ac4142;
-  $link-color: #ac4142;
-  $sidebar-sticky: false;
-  @import "hydeout";
-  ```
-
-  ```scss
-  $sidebar-bg-color: #202020 !default;
-  $sidebar-sticky: true !default;
-  $layout-reverse: false !default;
-  $link-color: #268bd2 !default;
-  ```
