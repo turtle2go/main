@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AWS EC2
+title: How to set AWS EC2
 category: Clouds
 excerpt_separator:  <!--more-->
 ---
