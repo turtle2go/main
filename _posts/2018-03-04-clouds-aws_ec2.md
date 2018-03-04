@@ -15,12 +15,14 @@ Virtual Server, running based on various hardware types provided by AWS.
 AMI(Amazon Machine Image)
 AWS pre-built OS template(OS,APPs), provided by AWS or built by customers
 
-AMI Type
+EC2 Storage Type
 ```scss
-  * Instance Store-Backed
-    ; Instance store won't be available once the instance stop/delete
-  * EBS (elastic Block Store)
+  * Instance Store-Backed (Only for instance)
+  ; Instance store won't be available once the instance stop/terminate
+    Sequential process for temporary files, cache, swap(could be deleted)
+  * EBS (elastic Block Store, High availability and durability)
   ; EBS would be available still although the instance create/delete
+    Persistent operation such as OS, DB
 ```
 
 ### Setting
