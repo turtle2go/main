@@ -27,18 +27,15 @@ EC2 Storage Type
 
 ### Setting
 
-pre-requisite
+[pre-requisite]
 
 Required:
 
-```scss
-Key pairs for SSH between instance and administration PCs
-Security group and firewall rules
-```
+  * Key pairs for SSH between instance and administration PCs
+    Security group and firewall rules
 
-EC2 Creation
+[EC2 Creation]
 
-```scss
   * Select AMI Type
   * Select instance Type
   * Configure instance settting
@@ -48,8 +45,8 @@ EC2 Creation
   * Check instance status for Creation
   * Define Key pairs with existing key or new one
   * Assign EIP and link to EC2 service through internet
-  * EC2 service testing 
-```
+  * EC2 service testing
+
 
 
 To override these variables, create your own `assets/css/main.scss` file.
