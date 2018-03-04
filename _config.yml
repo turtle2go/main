@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Turtle2Go
 tagline:          'A Jekyll theme'
-description:      'Turtle2Go IT'
+description:      'Help your life with IT'
 url:              https://Turtle2Go.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
