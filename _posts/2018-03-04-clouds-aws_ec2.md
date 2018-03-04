@@ -5,17 +5,25 @@ category: clouds
 excerpt_separator:  <!--more-->
 ---
 
-EC2 개요, 기동, 접속, 정지/삭제/재시작, CLI, 정리
+EC2 Definition, Setting, Connect, Stop/Start/Restart/, CLI, Summary
 
-### 개요
+### Definition
 
 Amazon EC2(Elastic Compute Cloud)
-AWS에서 제공된 하드웨어 타입에 따라 서비스를 설치 구성할 수 있는 서버(인스턴스)
+Virtual Server, running based on various hardware types provided by AWS.
 
 AMI(Amazon Machine Image)
-AWS에서 준비된 이미지 또는 사용자가 생성하여 보관하다가 필요 시 사용할 수 있는 OS이미지  
+AWS pre-built OS template(OS,APPs), provided by AWS or built by customers
 
-### Customization
+AMI Type
+```scss
+  * Instance Store-Backed
+    ; Instance store won't be available once the instance stop/delete
+  * EBS (elastic Block Store)
+  ; EBS would be available still although the instance create/delete
+```
+
+### Setting
 
 Hydeout replaces Hyde's class-based theming with the use
 of the following SASS variables:
