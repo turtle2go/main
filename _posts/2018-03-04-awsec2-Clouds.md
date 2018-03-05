@@ -19,12 +19,12 @@ AWS pre-built OS template(OS,APPs), provided by AWS or built by customers
 
 `EC2 Storage Type`
 
-  * Instance Store-Backed (Only for instance)
-   - Instance store won't be available once the instance stop/terminate
-   - Sequential process for temporary files, cache, swap(could be deleted)
-  * EBS (Elastic Block Store, High availability and durability)
-   - EBS would be available still although the instance create/delete
-   - Persistent operation such as OS, DB
+## Instance Store-Backed (Only for instance)
+   * Instance store won't be available once the instance stop/terminate
+   * Sequential process for temporary files, cache, swap(could be deleted)
+## EBS (Elastic Block Store, High availability and durability)
+   * EBS would be available still although the instance create/delete
+   * Persistent operation such as OS, DB
 
 ### Setting
 
