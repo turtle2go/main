@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: clouds
 title: How to setup AWS EC2 on Clouds
 category: Clouds
 excerpt_separator:  <!--more-->

@@ -13,9 +13,13 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # other pages at root, see the paginate_path and
                   # sidebar_blog_link below.
 
-author:
+author:           CM
   name:           'Turtle2Go'
+  email:          turtle2gogo@gmail.com
   url:            https://twitter.com/Turtle2Go
+
+facebook: "https://www.facebook.com/hongsik.lee"
+github: "https://github.com/Labyrins"
 
 paginate:         5
 # paginate_path:    '/page:num'
