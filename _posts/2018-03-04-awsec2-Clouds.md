@@ -9,11 +9,11 @@ category: Clouds
 excerpt_separator:  <!--more-->
 ---
 
-EC2 Definition, Setting, Connect, Stop/Start/Restart/, CLI, Summary
+`EC2 Definition, Setting, Connect, Stop/Start/Restart/, CLI, Summary`
 
 ### Definition
 
-Amazon EC2(Elastic Compute Cloud)`
+`Amazon EC2(Elastic Compute Cloud)`
 
  * Virtual Server, running based on various hardware types provided by AWS.
 
@@ -21,7 +21,7 @@ AMI(Amazon Machine Image)`
 
  * AWS pre-built OS template(OS,APPs), provided by AWS or built by customers
 
-EC2 Storage Type`
+`EC2 Storage Type`
 
   * Instance Store-Backed (Only for instance)
    - Instance store won't be available once the instance stop/terminate
