@@ -1,10 +1,6 @@
 ---
 layout: post
-<<<<<<< HEAD
 title: How to setup AWS EC2 on Clouds
-=======
-title: How to configure AWS EC2
->>>>>>> 174bc203a41967b7b4274630602f45119232fcd1
 category: Clouds
 excerpt_separator:  <!--more-->
 ---

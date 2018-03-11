@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Turtle2Go
 tagline:          'A Jekyll theme'
-description:      'Help your life with IT'
+description:      'Enjoy your life'
 url:              https://Turtle2Go.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -17,7 +17,7 @@ author:
   name:           'Turtle2Go'
   url:            https://twitter.com/Turtle2Go
 
-paginate:         10
+paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
