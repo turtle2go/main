@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to implement AWS EC2
+title: How to setup AWS EC2 on Clouds
 category: Clouds
 excerpt_separator:  <!--more-->
 ---
