@@ -5,7 +5,7 @@ category: Clouds
 excerpt_separator:  <!--more-->
 ---
 
-`EC2 Definition, Setting, Connect, Stop/Start/Restart/, CLI, Summary`
+### EC2 Definition, Setting, Connect, Stop/Start/Restart/, CLI, Summary`
 
 ### Definition
 
