@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-11T12:10:08+09:00</updated><id>http://localhost:4000/</id><title type="html">Turtle2Go</title><subtitle>Help your life with IT</subtitle><author><name>Turtle2Go</name></author><entry><title type="html">How to configure AWS EC2</title><link href="http://localhost:4000/clouds/2018/03/04/awsec2-Clouds.html" rel="alternate" type="text/html" title="How to configure AWS EC2" /><published>2018-03-04T00:00:00+09:00</published><updated>2018-03-04T00:00:00+09:00</updated><id>http://localhost:4000/clouds/2018/03/04/awsec2-Clouds</id><content type="html" xml:base="http://localhost:4000/clouds/2018/03/04/awsec2-Clouds.html">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;EC2 Definition, Setting, Connect, Stop/Start/Restart/, CLI, Summary&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;definition&quot;&gt;Definition&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Amazon EC2(Elastic Compute Cloud)&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Virtual Server, running based on various hardware types provided by AWS.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;AMI(Amazon Machine Image)`&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AWS pre-built OS template(OS,APPs), provided by AWS or built by customers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;EC2 Storage Type&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Instance Store-Backed (Only for instance)&lt;/li&gt;
+  &lt;li&gt;Instance store won’t be available once the instance stop/terminate&lt;/li&gt;
+  &lt;li&gt;Sequential process for temporary files, cache, swap(could be deleted)&lt;/li&gt;
+  &lt;li&gt;EBS (Elastic Block Store, High availability and durability)&lt;/li&gt;
+  &lt;li&gt;EBS would be available still although the instance create/delete&lt;/li&gt;
+  &lt;li&gt;Persistent operation such as OS, DB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;setting&quot;&gt;Setting&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Pre-requisite&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Key pairs for SSH between instance and administration PCs&lt;/li&gt;
+  &lt;li&gt;Security group and firewall rules&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;EC2 Creation procedure&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Select AMI Type&lt;/li&gt;
+  &lt;li&gt;Select instance Type&lt;/li&gt;
+  &lt;li&gt;Configure instance setting&lt;/li&gt;
+  &lt;li&gt;Add Storage&lt;/li&gt;
+  &lt;li&gt;Define instance tags&lt;/li&gt;
+  &lt;li&gt;Configure security Setting&lt;/li&gt;
+  &lt;li&gt;Check instance status for Creation&lt;/li&gt;
+  &lt;li&gt;Define Key pairs with existing key or new one&lt;/li&gt;
+  &lt;li&gt;Assign EIP and link to EC2 service through Internet&lt;/li&gt;
+  &lt;li&gt;EC2 service testing&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Turtle2Go</name></author><category term="Clouds" /><summary type="html">EC2 Definition, Setting, Connect, Stop/Start/Restart/, CLI, Summary Definition Amazon EC2(Elastic Compute Cloud) Virtual Server, running based on various hardware types provided by AWS. AMI(Amazon Machine Image)` AWS pre-built OS template(OS,APPs), provided by AWS or built by customers EC2 Storage Type Instance Store-Backed (Only for instance) Instance store won’t be available once the instance stop/terminate Sequential process for temporary files, cache, swap(could be deleted) EBS (Elastic Block Store, High availability and durability) EBS would be available still although the instance create/delete Persistent operation such as OS, DB Setting Pre-requisite Key pairs for SSH between instance and administration PCs Security group and firewall rules EC2 Creation procedure Select AMI Type Select instance Type Configure instance setting Add Storage Define instance tags Configure security Setting Check instance status for Creation Define Key pairs with existing key or new one Assign EIP and link to EC2 service through Internet EC2 service testing</summary></entry></feed>
