@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Turtle2Go
-tagline:          'A Jekyll theme'
-description:      'Enjoy your life'
+title:            turtle2Go
+tagline:          ''
+description:      'Welcome to turtle's Home'
 url:              https://Turtle2Go.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -13,8 +13,8 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # other pages at root, see the paginate_path and
                   # sidebar_blog_link below.
 
-facebook: "https://www.facebook.com/hongsik.lee"
-github: "https://github.com/Labyrins"
+facebook: "http://facebook.com/turtle2go"
+github: "http://turtle2go.github.io"
 
 paginate:         5
 # paginate_path:    '/page:num'
