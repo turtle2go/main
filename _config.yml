@@ -1,36 +1,22 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+# Site settings
+title: Turtle2Go
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Learning doesn’t have to feel boring or forced. Find somethingyou love to make it exciting.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://Turtle2Go.github.io" # the base hostname & protocol for your site
+twitter_username: turtle2go
+github_username:  turtle2go
 
-# Setup
-title:            turtle2Go
-tagline:          'On progress'
-description:      'Welcome to turtle's Home'
-url:              https://Turtle2Go.github.io
-baseurl:          # the optional subpath of your site, e.g. "/blog"
-                  # NB: This applies to all pages in your Jekyll site.
-                  # If you want to move just the blog index pages but keep
-                  # other pages at root, see the paginate_path and
-                  # sidebar_blog_link below.
+# Build settings
+markdown: kramdown
 
-facebook: "http://facebook.com/turtle2go"
-github: "http://turtle2go.github.io"
+# Other options
+permalink: blog/:year/:month/:title
+job.title: "IT Cloud Engineer"
+excerpt_separator: "<!--more-->"
 
-paginate:         5
-# paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
-
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-
-# Custom vars
-#version:            3.5.3
-#sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
-                                # page. If you change your paginate_path,
-                                # set this to the root of the paginate_path
-                                # to enable a separate blog link.
-github:
-  repo:             https://github.com/Turtle2Go
+# SEO stuff
+# google_author: ""
+# google_site_verification: ""
+# bing_webmastertools_id: ""
