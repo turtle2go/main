@@ -4,7 +4,7 @@ highlighter:      rouge
 
 # Setup
 title:            turtle2Go
-tagline:          ''
+tagline:          'On progress'
 description:      'Welcome to turtle's Home'
 url:              https://Turtle2Go.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
