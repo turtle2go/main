@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How to setup AWS EC2 on Clouds
-category: Clouds
+title: projects
+category: projects
 excerpt_separator:  <!--more-->
 ---
 

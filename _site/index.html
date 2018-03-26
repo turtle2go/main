@@ -45,7 +45,7 @@
         Turtle2Go
       </a>
     </h1>
-    <p class="lead">Help your life with IT</p>
+    <p class="lead">Enjoy your life</p>
   </header>
   <nav id="sidebar-nav-links">
   
@@ -55,10 +55,6 @@
 
   
 
-
-  
-    
-  
 
   
     
@@ -92,6 +88,10 @@
   
 
   
+    
+  
+
+  
 
   
     
@@ -110,19 +110,16 @@
   
 
   
-
-
-  
-
-
-  
     
   
 
   
-    
-      <a class="category-link "
-          href="/category/Apps.html">Apps (IOS, Android)</a>
+
+
+  
+
+
+  
     
   
 
@@ -134,6 +131,13 @@
     
       <a class="category-link "
           href="/category/ai.html">A.I. (Artificial Inteligence)</a>
+    
+  
+
+  
+    
+      <a class="category-link "
+          href="/category/apps.html">Apps (IOS, Android)</a>
     
   
 
@@ -176,6 +180,10 @@
     
       <a class="category-link "
           href="/category/services.html">IT Services Operations</a>
+    
+  
+
+  
     
   
 
@@ -270,12 +278,12 @@
   
   <article class="post-body">
     <h2 class="post-title">
-      <a href="/clouds/2018/03/04/awsec2-Clouds.html">
-        How to configure AWS EC2
+      <a href="/services/2018/03/26/awsec1-services.html">
+        services
       </a>
     </h2>
     <div class="post-meta">
-  <span class="post-date">04 Mar 2018</span>
+  <span class="post-date">26 Mar 2018</span>
   <span class="post-categories">
     
       &bull;
@@ -285,8 +293,8 @@
       
 
       
-        <a href="/category/clouds.html">
-          Clouds
+        <a href="/category/services.html">
+          services
         </a>
       
     
@@ -294,7 +302,359 @@
 </div>
 
     
-      <p><code class="highlighter-rouge">EC2 Definition, Setting, Connect, Stop/Start/Restart/, CLI, Summary</code></p>
+      <h3 id="ec2-definition-setting-connect-stopstartrestart-cli-summary">EC2 Definition, Setting, Connect, Stop/Start/Restart/, CLI, Summary`</h3>
+
+<h3 id="definition">Definition</h3>
+
+<p><code class="highlighter-rouge">Amazon EC2(Elastic Compute Cloud)</code></p>
+
+<ul>
+  <li>Virtual Server, running based on various hardware types provided by AWS.</li>
+</ul>
+
+<p>AMI(Amazon Machine Image)`</p>
+
+<ul>
+  <li>AWS pre-built OS template(OS,APPs), provided by AWS or built by customers</li>
+</ul>
+
+<p><code class="highlighter-rouge">EC2 Storage Type</code></p>
+
+<ul>
+  <li>Instance Store-Backed (Only for instance)</li>
+  <li>Instance store won’t be available once the instance stop/terminate</li>
+  <li>Sequential process for temporary files, cache, swap(could be deleted)</li>
+  <li>EBS (Elastic Block Store, High availability and durability)</li>
+  <li>EBS would be available still although the instance create/delete</li>
+  <li>Persistent operation such as OS, DB</li>
+</ul>
+
+<h3 id="setting">Setting</h3>
+
+<p><code class="highlighter-rouge">Pre-requisite</code></p>
+
+<ul>
+  <li>Key pairs for SSH between instance and administration PCs</li>
+  <li>Security group and firewall rules</li>
+</ul>
+
+<p><code class="highlighter-rouge">EC2 Creation procedure</code></p>
+
+<ul>
+  <li>Select AMI Type</li>
+  <li>Select instance Type</li>
+  <li>Configure instance setting</li>
+  <li>Add Storage</li>
+  <li>Define instance tags</li>
+  <li>Configure security Setting</li>
+  <li>Check instance status for Creation</li>
+  <li>Define Key pairs with existing key or new one</li>
+  <li>Assign EIP and link to EC2 service through Internet</li>
+  <li>EC2 service testing</li>
+</ul>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/projects/2018/03/26/awsec1-projects.html">
+        projects
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">26 Mar 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/projects.html">
+          projects
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <h3 id="ec2-definition-setting-connect-stopstartrestart-cli-summary">EC2 Definition, Setting, Connect, Stop/Start/Restart/, CLI, Summary`</h3>
+
+<h3 id="definition">Definition</h3>
+
+<p><code class="highlighter-rouge">Amazon EC2(Elastic Compute Cloud)</code></p>
+
+<ul>
+  <li>Virtual Server, running based on various hardware types provided by AWS.</li>
+</ul>
+
+<p>AMI(Amazon Machine Image)`</p>
+
+<ul>
+  <li>AWS pre-built OS template(OS,APPs), provided by AWS or built by customers</li>
+</ul>
+
+<p><code class="highlighter-rouge">EC2 Storage Type</code></p>
+
+<ul>
+  <li>Instance Store-Backed (Only for instance)</li>
+  <li>Instance store won’t be available once the instance stop/terminate</li>
+  <li>Sequential process for temporary files, cache, swap(could be deleted)</li>
+  <li>EBS (Elastic Block Store, High availability and durability)</li>
+  <li>EBS would be available still although the instance create/delete</li>
+  <li>Persistent operation such as OS, DB</li>
+</ul>
+
+<h3 id="setting">Setting</h3>
+
+<p><code class="highlighter-rouge">Pre-requisite</code></p>
+
+<ul>
+  <li>Key pairs for SSH between instance and administration PCs</li>
+  <li>Security group and firewall rules</li>
+</ul>
+
+<p><code class="highlighter-rouge">EC2 Creation procedure</code></p>
+
+<ul>
+  <li>Select AMI Type</li>
+  <li>Select instance Type</li>
+  <li>Configure instance setting</li>
+  <li>Add Storage</li>
+  <li>Define instance tags</li>
+  <li>Configure security Setting</li>
+  <li>Check instance status for Creation</li>
+  <li>Define Key pairs with existing key or new one</li>
+  <li>Assign EIP and link to EC2 service through Internet</li>
+  <li>EC2 service testing</li>
+</ul>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/blockchain/2018/03/26/awsec1-blockchain.html">
+        blockchain ico
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">26 Mar 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/blockchain.html">
+          blockchain
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <h3 id="ec2-definition-setting-connect-stopstartrestart-cli-summary">EC2 Definition, Setting, Connect, Stop/Start/Restart/, CLI, Summary`</h3>
+
+<h3 id="definition">Definition</h3>
+
+<p><code class="highlighter-rouge">Amazon EC2(Elastic Compute Cloud)</code></p>
+
+<ul>
+  <li>Virtual Server, running based on various hardware types provided by AWS.</li>
+</ul>
+
+<p>AMI(Amazon Machine Image)`</p>
+
+<ul>
+  <li>AWS pre-built OS template(OS,APPs), provided by AWS or built by customers</li>
+</ul>
+
+<p><code class="highlighter-rouge">EC2 Storage Type</code></p>
+
+<ul>
+  <li>Instance Store-Backed (Only for instance)</li>
+  <li>Instance store won’t be available once the instance stop/terminate</li>
+  <li>Sequential process for temporary files, cache, swap(could be deleted)</li>
+  <li>EBS (Elastic Block Store, High availability and durability)</li>
+  <li>EBS would be available still although the instance create/delete</li>
+  <li>Persistent operation such as OS, DB</li>
+</ul>
+
+<h3 id="setting">Setting</h3>
+
+<p><code class="highlighter-rouge">Pre-requisite</code></p>
+
+<ul>
+  <li>Key pairs for SSH between instance and administration PCs</li>
+  <li>Security group and firewall rules</li>
+</ul>
+
+<p><code class="highlighter-rouge">EC2 Creation procedure</code></p>
+
+<ul>
+  <li>Select AMI Type</li>
+  <li>Select instance Type</li>
+  <li>Configure instance setting</li>
+  <li>Add Storage</li>
+  <li>Define instance tags</li>
+  <li>Configure security Setting</li>
+  <li>Check instance status for Creation</li>
+  <li>Define Key pairs with existing key or new one</li>
+  <li>Assign EIP and link to EC2 service through Internet</li>
+  <li>EC2 service testing</li>
+</ul>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/apps/2018/03/26/awsec1-apps.html">
+        apps
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">26 Mar 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/apps.html">
+          apps
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <h3 id="ec2-definition-setting-connect-stopstartrestart-cli-summary">EC2 Definition, Setting, Connect, Stop/Start/Restart/, CLI, Summary`</h3>
+
+<h3 id="definition">Definition</h3>
+
+<p><code class="highlighter-rouge">Amazon EC2(Elastic Compute Cloud)</code></p>
+
+<ul>
+  <li>Virtual Server, running based on various hardware types provided by AWS.</li>
+</ul>
+
+<p>AMI(Amazon Machine Image)`</p>
+
+<ul>
+  <li>AWS pre-built OS template(OS,APPs), provided by AWS or built by customers</li>
+</ul>
+
+<p><code class="highlighter-rouge">EC2 Storage Type</code></p>
+
+<ul>
+  <li>Instance Store-Backed (Only for instance)</li>
+  <li>Instance store won’t be available once the instance stop/terminate</li>
+  <li>Sequential process for temporary files, cache, swap(could be deleted)</li>
+  <li>EBS (Elastic Block Store, High availability and durability)</li>
+  <li>EBS would be available still although the instance create/delete</li>
+  <li>Persistent operation such as OS, DB</li>
+</ul>
+
+<h3 id="setting">Setting</h3>
+
+<p><code class="highlighter-rouge">Pre-requisite</code></p>
+
+<ul>
+  <li>Key pairs for SSH between instance and administration PCs</li>
+  <li>Security group and firewall rules</li>
+</ul>
+
+<p><code class="highlighter-rouge">EC2 Creation procedure</code></p>
+
+<ul>
+  <li>Select AMI Type</li>
+  <li>Select instance Type</li>
+  <li>Configure instance setting</li>
+  <li>Add Storage</li>
+  <li>Define instance tags</li>
+  <li>Configure security Setting</li>
+  <li>Check instance status for Creation</li>
+  <li>Define Key pairs with existing key or new one</li>
+  <li>Assign EIP and link to EC2 service through Internet</li>
+  <li>EC2 service testing</li>
+</ul>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/ai/2018/03/26/awsec1-ai.html">
+        ai
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">26 Mar 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/ai.html">
+          ai
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <h3 id="ec2-definition-setting-connect-stopstartrestart-cli-summary">EC2 Definition, Setting, Connect, Stop/Start/Restart/, CLI, Summary`</h3>
 
 <h3 id="definition">Definition</h3>
 
@@ -358,6 +718,13 @@
   
 
   
+<div class="pagination">
+  <a class="pagination-item older"
+     href="/page2">
+    Older
+  </a>
+</div>
+
 
 </div>
     </main>

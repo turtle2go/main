@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How to setup AWS EC2 on Clouds
-category: Clouds
+title: blockchain ico
+category: blockchain
 excerpt_separator:  <!--more-->
 ---
 
