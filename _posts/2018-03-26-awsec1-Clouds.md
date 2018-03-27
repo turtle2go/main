@@ -1,47 +1,16 @@
 ---
 layout: post
-title: How to setup AWS EC2 on Clouds
+title: What is Clouds Services
 category: Clouds
 excerpt_separator:  <!--more-->
 ---
 
-### EC2 Definition, Setting, Connect, Stop/Start/Restart/, CLI, Summary`
+### Cloud Compute Services
 
-### Definition
+'Cloud computing' is an information technology (IT) paradigm that enables ubiquitous access to shared pools of configurable system resources and higher-level services that can be rapidly provisioned with minimal management effort, often over the Internet. Cloud computing relies on sharing of resources to achieve coherence and economies of scale, similar to a public utility.
 
-`Amazon EC2(Elastic Compute Cloud)`
+Third-party clouds enable organizations to focus on their core businesses instead of expending resources on computer infrastructure and maintenance. Advocates note that cloud computing allows companies to avoid or minimize up-front IT infrastructure costs. Proponents also claim that cloud computing allows enterprises to get their applications up and running faster, with improved manageability and less maintenance, and that it enables IT teams to more rapidly adjust resources to meet fluctuating and unpredictable demand. Cloud providers typically use a "pay-as-you-go" model, which can lead to unexpected operating expenses if administrators are not familiarized with cloud-pricing models.
 
- * Virtual Server, running based on various hardware types provided by AWS.
+Since the launch of Amazon EC2 in 2006, the availability of high-capacity networks, low-cost computers and storage devices as well as the widespread adoption of hardware virtualization, service-oriented architecture, and autonomic and utility computing has led to growth in cloud computing.
 
-AMI(Amazon Machine Image)`
-
- * AWS pre-built OS template(OS,APPs), provided by AWS or built by customers
-
-`EC2 Storage Type`
-
-  * Instance Store-Backed (Only for instance)
-   - Instance store won't be available once the instance stop/terminate
-   - Sequential process for temporary files, cache, swap(could be deleted)
-  * EBS (Elastic Block Store, High availability and durability)
-   - EBS would be available still although the instance create/delete
-   - Persistent operation such as OS, DB
-
-### Setting
-
-`Pre-requisite`
-
-  * Key pairs for SSH between instance and administration PCs
-  * Security group and firewall rules
-
-`EC2 Creation procedure`
-
-  * Select AMI Type
-  * Select instance Type
-  * Configure instance setting
-  * Add Storage
-  * Define instance tags
-  * Configure security Setting
-  * Check instance status for Creation
-  * Define Key pairs with existing key or new one
-  * Assign EIP and link to EC2 service through Internet
-  * EC2 service testing
+- from wikipedia -
