@@ -13,4 +13,4 @@ Third-party clouds enable organizations to focus on their core businesses instea
 
 Since the launch of Amazon EC2 in 2006, the availability of high-capacity networks, low-cost computers and storage devices as well as the widespread adoption of hardware virtualization, service-oriented architecture, and autonomic and utility computing has led to growth in cloud computing.
 
-- from wikipedia -
+-- from wikipedia --
