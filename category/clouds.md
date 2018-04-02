@@ -1,5 +1,5 @@
 ---
 layout: category
 title: Clouds
-#category:
+category: clouds
 ---
