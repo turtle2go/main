@@ -2,7 +2,7 @@
 title: turtle2go
 email: turtle2gogo@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Learning doesn’t have to feel boring or forced. Find somethingyou love to make it exciting.
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://Turtle2Go.github.io" # the base hostname & protocol for your site
 twitter_username: turtle2go
