@@ -1,6 +1,6 @@
 ---
 layout: post
-title: nodejs
+title: Node.js programming
 category: programming
 excerpt_separator:  <!--more-->
 ---
