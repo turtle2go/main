@@ -18,12 +18,12 @@ excerpt_separator:  <!--more-->
  ---
  <span style="color:grey;font-size:16pt">
 
- *Download & Install*
+ *Download, Installation*
  </span>
   <p>
   <span style="color:grey;font-size:12pt">
 
-  * Download installation file from https://nodejs.org/en/
+  Download installation file from https://nodejs.org/en/
 
   > Alternatives Using Chocolatey:
     cinst nodejs or for full install with npm
