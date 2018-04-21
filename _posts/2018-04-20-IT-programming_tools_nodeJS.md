@@ -20,10 +20,10 @@ excerpt_separator:  <!--more-->
   </p>
 
  ---
+
  <span style="color:grey;font-size:14pt">
 
  *Download, Installation*
-
  </span>
   <p>
   <span style="color:grey;font-size:12pt">
@@ -32,17 +32,20 @@ excerpt_separator:  <!--more-->
 
   > Alternatives Using Chocolatey:
     cinst nodejs or for full install with npm
-    cinst nodejs.install
+      cinst nodejs.install
 
   >Using Scoop:
-  scoop install nodejs*
+    scoop install nodejs
 
   </span>
   </p>
 
 ---
 
-  <span style="color:grey;font-size:14pt">*Congiguration* </span>
+  <span style="color:grey;font-size:14pt">
+
+  *Configuration*
+  </span>
   <p>
   <span style="color:grey;font-size:12pt">
   ...
@@ -57,12 +60,3 @@ excerpt_separator:  <!--more-->
    ...
   </span>
   </p>
-
-  ---
-
-  <span style="color:grey;font-size:14pt">*Ruby* </span>
-  <p>
-   <span style="color:grey;font-size:12pt">
-   ...
-  </span>
-</p>
